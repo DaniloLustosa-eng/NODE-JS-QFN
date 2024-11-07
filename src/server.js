@@ -1,6 +1,6 @@
 import express from 'express'
 import { PrismaClient, Prisma} from '@prisma/client'
-import * as E from './exceções.js'
+import * as E from '../exceções.js'
 const prisma = new PrismaClient()
 
  
